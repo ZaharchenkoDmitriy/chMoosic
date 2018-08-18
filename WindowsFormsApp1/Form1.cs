@@ -57,6 +57,7 @@ namespace WindowsFormsApp1
         private void removeSong(object sender, EventArgs e)
         {
             Song song = (Song)playlist.SelectedItem;
+            playlist.SelectedIndex = playlist.SelectedIndex - 1; 
             playListService.CurrentPlayList.removeSong(song);
 
             rerender();
