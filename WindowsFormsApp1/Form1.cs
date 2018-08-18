@@ -14,18 +14,14 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        ExtendedPlaylist playlistContent = new ExtendedPlaylist();
-        
+        DataService dataService = new DataService();
+        PlayListsService playListService = new PlayListsService();
+
         public Form1()
         {
             String directory = Directory.GetCurrentDirectory();
             directory = directory.Substring(0, directory.Length - 9);
-
-            playlistContent.addSong(new Song("T-Fest - ya znal", directory + "sources\\T-Fest-odno_ya_znal.mp3"));
-            playlistContent.addSong(new Song("This is America", directory+ "sources\\Childish Gambino – This Is America.mp3"));
-            playlistContent.addSong(new Song("YeahRight", directory+ "sources\\Joji – Yeah Right.mp3"));
-            playlistContent.addSong(new Song("RockStar", directory+ "sources\\Post Malone ft. 21 Savage – Rockstar.mp3"));
-            
+           
             InitializeComponent();
             rerender();
 
@@ -50,7 +46,7 @@ namespace WindowsFormsApp1
         private void removeSong(object sender, EventArgs e)
         {
             Song song = (Song)playlist.SelectedItem;
-            playlistContent.removeSong(song);
+            playListService.CurrentPlayList.removeSong(song);
 
             rerender();
         }
@@ -58,16 +54,15 @@ namespace WindowsFormsApp1
 
         private void addToFavorite(object sender, EventArgs e)
         {
-            if(toFavorite.Text.Equals("Favorite"))
-            {
-                Song song = (Song)playlist.SelectedItem;
-                playlistContent.addFavorite(song);
-            } else
-            {
-                Song song = (Song)playlist.SelectedItem;
-                playlistContent.removeFavorite(song);
-                rerender();
-            }
+            bool favorite = toFavorite.Text.Equals("Favorite");
+            Song song = (Song)playlist.SelectedItem;
+
+            if(favorite)
+                ((ExtendedPlaylist)playListService.CurrentPlayList).addFavorite(song);
+            else
+                ((ExtendedPlaylist) playListService.CurrentPlayList).removeFavorite(song); 
+            
+            rerender();
         }
 
         private void rerender()
@@ -76,33 +71,27 @@ namespace WindowsFormsApp1
 
             playlist.DisplayMember = "Name";
             playlist.DataSource = favorites.Text.Equals("Favorites")
-                ? playlistContent.getSongs()
-                : playlistContent.getFavorites();
+                ? ((ExtendedPlaylist)playListService.CurrentPlayList).getSongs()
+                : ((ExtendedPlaylist)playListService.CurrentPlayList).getFavorites();
                 
         }
 
         private void showFavorites(object sender, EventArgs e)
         {
-            if(favorites.Text.Equals("Favorites"))
-            {
-                favorites.Text = "All";
-                toFavorite.Text = "Remove";
-                rerender();
-            } else
-            {
-                favorites.Text = "Favorites";
-                toFavorite.Text = "Favorite";
-                rerender();
-            }
+            bool favorite = favorites.Text.Equals("Favorites");
+            
+            favorites.Text = favorite ? "All" : "Favorites";
+            toFavorite.Text = favorite ? "Remove" : "Favorite";
+            
+            rerender();
         }
 
         private void openFile(object sender, EventArgs e)
         {
             openFileDialog1.ShowDialog();
 
-            playlistContent.addSong(new Song(openFileDialog1.FileName.Split('\\').Last(), openFileDialog1.FileName));
+            ((ExtendedPlaylist)playListService.CurrentPlayList).addSong(new Song(openFileDialog1.FileName.Split('\\').Last(), openFileDialog1.FileName));
             rerender(); 
-        }
-       
+        }    
     }
 }
