@@ -38,5 +38,9 @@ namespace WindowsFormsApp1
         {
             return playlists; 
         }
+
+        public AbstractPlaylist getEmptyPlayList() {
+            return new ExtendedPlaylist();
+        }
     }
 }

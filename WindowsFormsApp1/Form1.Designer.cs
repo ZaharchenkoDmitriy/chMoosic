@@ -70,6 +70,7 @@
             this.playLists.Name = "playLists";
             this.playLists.Size = new System.Drawing.Size(175, 485);
             this.playLists.TabIndex = 2;
+            this.playLists.SelectedIndexChanged += new System.EventHandler(this.playLists_SelectedIndexChanged);
             // 
             // favorites
             // 

@@ -41,6 +41,7 @@ namespace WindowsFormsApp1
             playLists.DisplayMember = "Name";
             playLists.DataSource = playListService.getPlaylists();
 
+            playListName.Text = "";
             rerender();
         }
 
@@ -111,15 +112,24 @@ namespace WindowsFormsApp1
 
         private void addPlayList_Click(object sender, EventArgs e)
         {
-            
+            playListService.addPlaylist(new ExtendedPlaylist(playListName.Text));
 
             renderPlaylists();
         }
 
         private void removePlayListButton_Click(object sender, EventArgs e)
         {
+            AbstractPlaylist selectedPlaylist = (ExtendedPlaylist)playLists.SelectedItem;
+            playLists.SelectedIndex = playLists.SelectedIndex - 1;
+            playListService.removePlayList(selectedPlaylist);
 
             renderPlaylists();
+        }
+
+        private void playLists_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            playListService.CurrentPlayList = (ExtendedPlaylist)playLists.SelectedItem;
+            rerender();
         }
     }
 }
