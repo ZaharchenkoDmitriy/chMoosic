@@ -14,16 +14,16 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        DataService dataService = new DataService();
         PlayListsService playListService = new PlayListsService();
 
         public Form1()
         {
             String directory = Directory.GetCurrentDirectory();
             directory = directory.Substring(0, directory.Length - 9);
-           
+
             InitializeComponent();
             rerender();
+            renderPlaylists();
 
             button1.BackColor = Color.Transparent;
             button1.BackgroundImage = Image.FromFile(directory + "openFile.png");
@@ -32,6 +32,16 @@ namespace WindowsFormsApp1
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void renderPlaylists()
+        {
+            playLists.DataSource = null;
+
+            playLists.DisplayMember = "Name";
+            playLists.DataSource = playListService.getPlaylists();
+
+            rerender();
         }
 
         private void itemChanged(object sender, EventArgs e)
@@ -92,6 +102,24 @@ namespace WindowsFormsApp1
 
             ((ExtendedPlaylist)playListService.CurrentPlayList).addSong(new Song(openFileDialog1.FileName.Split('\\').Last(), openFileDialog1.FileName));
             rerender(); 
-        }    
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addPlayList_Click(object sender, EventArgs e)
+        {
+            
+
+            renderPlaylists();
+        }
+
+        private void removePlayListButton_Click(object sender, EventArgs e)
+        {
+
+            renderPlaylists();
+        }
     }
 }

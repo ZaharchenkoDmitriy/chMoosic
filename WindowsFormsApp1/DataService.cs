@@ -11,17 +11,18 @@ namespace WindowsFormsApp1
     class DataService
     {
         String directory = Directory.GetCurrentDirectory();
-        private List<AbstractPlaylist> playlists = new List<AbstractPlaylist>();
+        public static List<AbstractPlaylist> playlists = new List<AbstractPlaylist>();
 
         public DataService()
         {
             directory = directory.Substring(0, directory.Length - 9);
-            generatePlaylists();
+            if(!playlists.Any())
+                generatePlaylists();
         }
         
         private void generatePlaylists()
         {
-            playlists.Add(fillPlayList(new ExtendedPlaylist()));
+            playlists.Add(fillPlayList(new ExtendedPlaylist("TestPlaylist")));
         }
         private AbstractPlaylist fillPlayList(AbstractPlaylist playList)
         {

@@ -10,6 +10,10 @@ namespace WindowsFormsApp1.Music
     {
         List<Song> favorites = new List<Song>();
 
+        public ExtendedPlaylist(){ }
+
+        public ExtendedPlaylist(String name ) : base(name) {}
+
         public void addFavorite(Song songToAdd)
         {
             Song song = findSong(songToAdd);

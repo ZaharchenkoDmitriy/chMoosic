@@ -10,6 +10,17 @@ namespace WindowsFormsApp1.Music
     class Playlist : AbstractPlaylist
     {
         protected List<Song> songs = new List<Song>();
+        
+        public override String Name { get; set; }
+
+        public Playlist()
+        {
+
+        }
+        public Playlist(String name)
+        {
+            Name = name;
+        }
 
         public override void addSong(Song songToAdd)
         {

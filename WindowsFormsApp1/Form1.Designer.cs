@@ -38,6 +38,9 @@
             this.remove = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.button1 = new System.Windows.Forms.Button();
+            this.addPlayList = new System.Windows.Forms.Button();
+            this.removePlayListButton = new System.Windows.Forms.Button();
+            this.playListName = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,11 +114,42 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.openFile);
             // 
+            // addPlayList
+            // 
+            this.addPlayList.Location = new System.Drawing.Point(28, 473);
+            this.addPlayList.Name = "addPlayList";
+            this.addPlayList.Size = new System.Drawing.Size(66, 23);
+            this.addPlayList.TabIndex = 7;
+            this.addPlayList.Text = "Add";
+            this.addPlayList.UseVisualStyleBackColor = true;
+            this.addPlayList.Click += new System.EventHandler(this.addPlayList_Click);
+            // 
+            // removePlayListButton
+            // 
+            this.removePlayListButton.Location = new System.Drawing.Point(100, 473);
+            this.removePlayListButton.Name = "removePlayListButton";
+            this.removePlayListButton.Size = new System.Drawing.Size(66, 23);
+            this.removePlayListButton.TabIndex = 8;
+            this.removePlayListButton.Text = "Delete";
+            this.removePlayListButton.UseVisualStyleBackColor = true;
+            this.removePlayListButton.Click += new System.EventHandler(this.removePlayListButton_Click);
+            // 
+            // playListName
+            // 
+            this.playListName.Location = new System.Drawing.Point(12, 447);
+            this.playListName.Name = "playListName";
+            this.playListName.Size = new System.Drawing.Size(167, 20);
+            this.playListName.TabIndex = 9;
+            this.playListName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(813, 521);
+            this.Controls.Add(this.playListName);
+            this.Controls.Add(this.removePlayListButton);
+            this.Controls.Add(this.addPlayList);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.remove);
             this.Controls.Add(this.toFavorite);
@@ -127,6 +161,7 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -141,6 +176,9 @@
         private System.Windows.Forms.Button remove;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button addPlayList;
+        private System.Windows.Forms.Button removePlayListButton;
+        private System.Windows.Forms.TextBox playListName;
     }
 }
 
