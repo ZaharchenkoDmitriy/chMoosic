@@ -12,3 +12,17 @@ C:\Users\imdrc\Desktop\course\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Window
 C:\Users\imdrc\Desktop\course\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
 C:\Users\imdrc\Desktop\course\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\imdrc\Desktop\course\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\курсач\chmusic\chMoosic\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
