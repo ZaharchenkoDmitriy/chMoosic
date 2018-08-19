@@ -95,7 +95,7 @@ namespace WindowsFormsApp1
 
             playlist.DisplayMember = "Name";
             playlist.DataSource = favorites.Text.Equals("Favorites")
-                ? ((ExtendedPlaylist)playListService.CurrentPlayList).getSongs()
+                ? ((Playlist)playListService.CurrentPlayList).getSongs()
                 : ((ExtendedPlaylist)playListService.CurrentPlayList).getFavorites();
                 
         }
