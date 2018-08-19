@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a9de21e-f8f9-4efd-833e-c851c47a5146" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/DataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/DataService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/Music/ExtendedPlaylist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/Music/ExtendedPlaylist.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/Music/Song.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/Music/Song.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/PlayListsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/PlayListsService.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="PlayListsService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/PlayListsService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <marker date="1534708924379" expanded="true" signature="6:145" ph="..." />
+                <marker date="1534708924379" expanded="true" signature="173:1586" ph="{...}" />
+                <marker date="1534708924379" expanded="true" signature="202:1584" ph="{...}" />
+                <marker date="1534708924379" expanded="true" signature="498:583" ph="{...}" />
+                <marker date="1534708924379" expanded="true" signature="601:740" ph="/* Свойство которое меняет значение текущего плейлиста ... */" />
+                <marker date="1534708924379" expanded="true" signature="788:1078" ph="{...}" />
+                <marker date="1534708924379" expanded="true" signature="806:867" ph="{...}" />
+                <marker date="1534708924379" expanded="true" signature="884:1068" ph="{...}" />
+                <marker date="1534708924379" expanded="true" signature="1176:1245" ph="{...}" />
+                <marker date="1534708924379" expanded="true" signature="1338:1410" ph="{...}" />
+                <marker date="1534708924379" expanded="true" signature="1496:1578" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1534700131429" expanded="false" signature="6:124" ph="..." />
+                <marker date="1534700131429" expanded="true" signature="152:507" ph="{...}" />
+                <marker date="1534700131429" expanded="true" signature="179:505" ph="{...}" />
+                <marker date="1534700131429" expanded="true" signature="194:278" ph="/// Главная точка входа для приложения. ... " />
+                <marker date="1534700131429" expanded="true" signature="325:499" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Song.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Music/Song.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+              <folding>
+                <marker date="1534708924553" expanded="false" signature="6:132" ph="..." />
+                <marker date="1534708924553" expanded="true" signature="166:680" ph="{...}" />
+                <marker date="1534708924553" expanded="true" signature="183:678" ph="{...}" />
+                <marker date="1534708924553" expanded="true" signature="269:357" ph="{...}" />
+                <marker date="1534708924553" expanded="true" signature="574:672" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Form1.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Form1.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670">
+              <caret line="146" column="103" selection-start-line="146" selection-start-column="103" selection-end-line="146" selection-end-column="103" />
+              <folding>
+                <marker date="1534709323686" expanded="true" signature="1057:1230" ph="/* Отрисовка плейлиста тут удаляется старый ресурс и заного стягивается список плейлистов ... */" />
+                <marker date="1534709323686" expanded="true" signature="1515:1667" ph="/* Функция которая срабатывает при переключениях песни, ... */" />
+                <marker date="1534709323686" expanded="true" signature="2046:2198" ph="/* удаление песни. Берется текущая песня( выбранная в списке), ... */" />
+                <marker date="1534709323686" expanded="true" signature="2495:2741" ph="/* Добавление или удаление из любимых. проверяется в каком мы сейчас режиме ... */" />
+                <marker date="1534709323686" expanded="true" signature="3209:3425" ph="/* Перерисовка: ... */" />
+                <marker date="1534709323686" expanded="true" signature="3826:4001" ph="/* Функция которя срабатывает при нажатии кнопки переключения любимых ... */" />
+                <marker date="1534709323686" expanded="true" signature="5088:5183" ph="/* удаление плейлиста ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/DataService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="49" column="97" selection-start-line="49" selection-start-column="97" selection-end-line="49" selection-end-column="97" />
+              <folding>
+                <marker date="1534708924461" expanded="false" signature="6:162" ph="..." />
+                <marker date="1534708924461" expanded="true" signature="190:2005" ph="{...}" />
+                <marker date="1534708924461" expanded="true" signature="214:2003" ph="{...}" />
+                <marker date="1534708924461" expanded="true" signature="474:634" ph="/* Конструктор класса. В нем форматируется путь к дериктории что бы с этим можно было работать ... */" />
+                <marker date="1534708924461" expanded="true" signature="663:823" ph="{...}" />
+                <marker date="1534708924461" expanded="true" signature="925:1024" ph="{...}" />
+                <marker date="1534708924461" expanded="true" signature="1145:1641" ph="{...}" />
+                <marker date="1534708924461" expanded="true" signature="1742:1793" ph="{...}" />
+                <marker date="1534708924461" expanded="true" signature="1943:1997" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Playlist.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Music/Playlist.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108">
+              <folding>
+                <marker date="1534700131428" expanded="true" signature="6:135" ph="..." />
+                <marker date="1534700131428" expanded="true" signature="169:1194" ph="{...}" />
+                <marker date="1534700131428" expanded="true" signature="209:1192" ph="{...}" />
+                <marker date="1534700131428" expanded="true" signature="356:377" ph="{...}" />
+                <marker date="1534700131428" expanded="true" signature="414:459" ph="{...}" />
+                <marker date="1534700131428" expanded="true" signature="513:645" ph="{...}" />
+                <marker date="1534700131428" expanded="true" signature="705:839" ph="{...}" />
+                <marker date="1534700131428" expanded="true" signature="892:1103" ph="{...}" />
+                <marker date="1534700131428" expanded="true" signature="943:1067" ph="{...}" />
+                <marker date="1534700131428" expanded="true" signature="1140:1186" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtendedPlaylist.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Music/ExtendedPlaylist.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="42" column="109" selection-start-line="42" selection-start-column="109" selection-end-line="42" selection-end-column="109" />
+              <folding>
+                <marker date="1534708924512" expanded="true" signature="6:115" ph="..." />
+                <marker date="1534708924512" expanded="true" signature="149:1424" ph="{...}" />
+                <marker date="1534708924512" expanded="true" signature="189:1422" ph="{...}" />
+                <marker date="1534708924512" expanded="true" signature="527:694" ph="{...}" />
+                <marker date="1534708924512" expanded="true" signature="779:945" ph="{...}" />
+                <marker date="1534708924512" expanded="true" signature="867:935" ph="{...}" />
+                <marker date="1534708924512" expanded="true" signature="1011:1061" ph="{...}" />
+                <marker date="1534708924512" expanded="true" signature="1239:1416" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractPlaylist.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Music/AbstractPlaylist.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1534700131428" expanded="false" signature="6:115" ph="..." />
+                <marker date="1534700131428" expanded="true" signature="149:423" ph="{...}" />
+                <marker date="1534700131428" expanded="true" signature="187:421" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WindowsFormsApp1/PlayListsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsFormsApp1/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsFormsApp1/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsFormsApp1/Music/Playlist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsFormsApp1/Form1.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsFormsApp1/Music/AbstractPlaylist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsFormsApp1/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsFormsApp1/Music/ExtendedPlaylist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsFormsApp1/DataService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsFormsApp1/Music/Song.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WindowsFormsApp1/DataService.cs" />
+        <option value="$PROJECT_DIR$/WindowsFormsApp1/PlayListsService.cs" />
+        <option value="$PROJECT_DIR$/WindowsFormsApp1/Music/Song.cs" />
+        <option value="$PROJECT_DIR$/WindowsFormsApp1/Music/ExtendedPlaylist.cs" />
+        <option value="$PROJECT_DIR$/WindowsFormsApp1/Form1.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="451" />
+    <option name="y" value="391" />
+    <option name="width" value="1380" />
+    <option name="height" value="1024" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WindowsFormsApp1 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WindowsFormsApp1 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WindowsFormsApp1" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WindowsFormsApp1 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WindowsFormsApp1" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Music" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WindowsFormsApp1 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WindowsFormsApp1" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Form1.cs" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WindowsFormsApp1 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WindowsFormsApp1" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Form1.cs" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Form1.resx" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a9de21e-f8f9-4efd-833e-c851c47a5146" name="Default" comment="" />
+      <created>1534700444299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534700444299</updated>
+      <workItem from="1534700448846" duration="5819000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5819000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="29" width="1920" height="1051" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Form1.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="176" column="51" lean-forward="true" selection-start-line="176" selection-start-column="51" selection-end-line="176" selection-end-column="51" />
+          <folding>
+            <marker date="1534700131427" expanded="true" signature="26:8737" ph="{...}" />
+            <marker date="1534700131427" expanded="true" signature="52:8735" ph="{...}" />
+            <marker date="1534700131427" expanded="true" signature="67:153" ph="/// Обязательная переменная конструктора. ... " />
+            <marker date="1534700131427" expanded="true" signature="231:426" ph="/// Освободить все используемые ресурсы. ... " />
+            <marker date="1534700131427" expanded="true" signature="482:656" ph="{...}" />
+            <marker date="1534700131427" expanded="true" signature="543:609" ph="{...}" />
+            <marker date="1534700131427" expanded="false" signature="666:8007" ph="Код, автоматически созданный конструктором форм Windows" />
+            <marker date="1534700131427" expanded="true" signature="739:908" ph="/// Требуемый метод для поддержки конструктора — не изменяйте  ... " />
+            <marker date="1534700131427" expanded="true" signature="951:7987" ph="{...}" />
+            <marker date="1534700131427" expanded="true" signature="2073:2129" ph="/* axWindowsMediaPlayer1 ... */" />
+            <marker date="1534700131427" expanded="true" signature="2738:2781" ph="/* playlist ... */" />
+            <marker date="1534700131427" expanded="true" signature="3149:3193" ph="/* playLists ... */" />
+            <marker date="1534700131427" expanded="true" signature="3600:3644" ph="/* favorites ... */" />
+            <marker date="1534700131427" expanded="true" signature="4073:4118" ph="/* toFavorite ... */" />
+            <marker date="1534700131427" expanded="true" signature="4554:4595" ph="/* remove ... */" />
+            <marker date="1534700131427" expanded="true" signature="4994:5044" ph="/* openFileDialog1 ... */" />
+            <marker date="1534700131427" expanded="true" signature="5120:5162" ph="/* button1 ... */" />
+            <marker date="1534700131427" expanded="true" signature="5525:5571" ph="/* addPlayList ... */" />
+            <marker date="1534700131427" expanded="true" signature="6013:6068" ph="/* removePlayListButton ... */" />
+            <marker date="1534700131427" expanded="true" signature="6595:6642" ph="/* playListName ... */" />
+            <marker date="1534700131427" expanded="true" signature="6996:7036" ph="/* Form1 ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Form1.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/DataService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="49" column="97" selection-start-line="49" selection-start-column="97" selection-end-line="49" selection-end-column="97" />
+          <folding>
+            <marker date="1534708924461" expanded="false" signature="6:162" ph="..." />
+            <marker date="1534708924461" expanded="true" signature="190:2005" ph="{...}" />
+            <marker date="1534708924461" expanded="true" signature="214:2003" ph="{...}" />
+            <marker date="1534708924461" expanded="true" signature="474:634" ph="/* Конструктор класса. В нем форматируется путь к дериктории что бы с этим можно было работать ... */" />
+            <marker date="1534708924461" expanded="true" signature="663:823" ph="{...}" />
+            <marker date="1534708924461" expanded="true" signature="925:1024" ph="{...}" />
+            <marker date="1534708924461" expanded="true" signature="1145:1641" ph="{...}" />
+            <marker date="1534708924461" expanded="true" signature="1742:1793" ph="{...}" />
+            <marker date="1534708924461" expanded="true" signature="1943:1997" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/PlayListsService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <marker date="1534708924379" expanded="true" signature="6:145" ph="..." />
+            <marker date="1534708924379" expanded="true" signature="173:1586" ph="{...}" />
+            <marker date="1534708924379" expanded="true" signature="202:1584" ph="{...}" />
+            <marker date="1534708924379" expanded="true" signature="498:583" ph="{...}" />
+            <marker date="1534708924379" expanded="true" signature="601:740" ph="/* Свойство которое меняет значение текущего плейлиста ... */" />
+            <marker date="1534708924379" expanded="true" signature="788:1078" ph="{...}" />
+            <marker date="1534708924379" expanded="true" signature="806:867" ph="{...}" />
+            <marker date="1534708924379" expanded="true" signature="884:1068" ph="{...}" />
+            <marker date="1534708924379" expanded="true" signature="1176:1245" ph="{...}" />
+            <marker date="1534708924379" expanded="true" signature="1338:1410" ph="{...}" />
+            <marker date="1534708924379" expanded="true" signature="1496:1578" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1534700131429" expanded="false" signature="6:124" ph="..." />
+            <marker date="1534700131429" expanded="true" signature="152:507" ph="{...}" />
+            <marker date="1534700131429" expanded="true" signature="179:505" ph="{...}" />
+            <marker date="1534700131429" expanded="true" signature="194:278" ph="/// Главная точка входа для приложения. ... " />
+            <marker date="1534700131429" expanded="true" signature="325:499" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Music/Song.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+          <folding>
+            <marker date="1534708924553" expanded="false" signature="6:132" ph="..." />
+            <marker date="1534708924553" expanded="true" signature="166:680" ph="{...}" />
+            <marker date="1534708924553" expanded="true" signature="183:678" ph="{...}" />
+            <marker date="1534708924553" expanded="true" signature="269:357" ph="{...}" />
+            <marker date="1534708924553" expanded="true" signature="574:672" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Music/AbstractPlaylist.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1534700131428" expanded="false" signature="6:115" ph="..." />
+            <marker date="1534700131428" expanded="true" signature="149:423" ph="{...}" />
+            <marker date="1534700131428" expanded="true" signature="187:421" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Music/ExtendedPlaylist.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="109" selection-start-line="42" selection-start-column="109" selection-end-line="42" selection-end-column="109" />
+          <folding>
+            <marker date="1534708924512" expanded="true" signature="6:115" ph="..." />
+            <marker date="1534708924512" expanded="true" signature="149:1424" ph="{...}" />
+            <marker date="1534708924512" expanded="true" signature="189:1422" ph="{...}" />
+            <marker date="1534708924512" expanded="true" signature="527:694" ph="{...}" />
+            <marker date="1534708924512" expanded="true" signature="779:945" ph="{...}" />
+            <marker date="1534708924512" expanded="true" signature="867:935" ph="{...}" />
+            <marker date="1534708924512" expanded="true" signature="1011:1061" ph="{...}" />
+            <marker date="1534708924512" expanded="true" signature="1239:1416" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Music/Playlist.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <folding>
+            <marker date="1534700131428" expanded="true" signature="6:135" ph="..." />
+            <marker date="1534700131428" expanded="true" signature="169:1194" ph="{...}" />
+            <marker date="1534700131428" expanded="true" signature="209:1192" ph="{...}" />
+            <marker date="1534700131428" expanded="true" signature="356:377" ph="{...}" />
+            <marker date="1534700131428" expanded="true" signature="414:459" ph="{...}" />
+            <marker date="1534700131428" expanded="true" signature="513:645" ph="{...}" />
+            <marker date="1534700131428" expanded="true" signature="705:839" ph="{...}" />
+            <marker date="1534700131428" expanded="true" signature="892:1103" ph="{...}" />
+            <marker date="1534700131428" expanded="true" signature="943:1067" ph="{...}" />
+            <marker date="1534700131428" expanded="true" signature="1140:1186" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WindowsFormsApp1/Form1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="146" column="103" selection-start-line="146" selection-start-column="103" selection-end-line="146" selection-end-column="103" />
+          <folding>
+            <marker date="1534709323686" expanded="true" signature="1057:1230" ph="/* Отрисовка плейлиста тут удаляется старый ресурс и заного стягивается список плейлистов ... */" />
+            <marker date="1534709323686" expanded="true" signature="1515:1667" ph="/* Функция которая срабатывает при переключениях песни, ... */" />
+            <marker date="1534709323686" expanded="true" signature="2046:2198" ph="/* удаление песни. Берется текущая песня( выбранная в списке), ... */" />
+            <marker date="1534709323686" expanded="true" signature="2495:2741" ph="/* Добавление или удаление из любимых. проверяется в каком мы сейчас режиме ... */" />
+            <marker date="1534709323686" expanded="true" signature="3209:3425" ph="/* Перерисовка: ... */" />
+            <marker date="1534709323686" expanded="true" signature="3826:4001" ph="/* Функция которя срабатывает при нажатии кнопки переключения любимых ... */" />
+            <marker date="1534709323686" expanded="true" signature="5088:5183" ph="/* удаление плейлиста ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
